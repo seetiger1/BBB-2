@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berliner Bäder — Öffnungszeiten</title>
+  <meta name="description" content="Öffnungszeiten deiner Lieblings-Schwimmbäder in Berlin auf einen Blick. Berliner Bäder-Betriebe (BBB).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ═══════════════════════════════════════════════════════════
+       DESIGN SYSTEM
+       ═══════════════════════════════════════════════════════════ */
+    :root {
+      /* Core palette — deep ocean */
+      --bg-primary: #0a0e1a;
+      --bg-secondary: #0f1525;
+      --bg-card: rgba(15, 25, 50, 0.65);
+      --bg-card-hover: rgba(20, 35, 65, 0.75);
+      --bg-glass: rgba(255, 255, 255, 0.04);
+      --bg-glass-strong: rgba(255, 255, 255, 0.08);
+
+      /* Accent — cyan / teal */
+      --accent: #22d3ee;
+      --accent-dim: rgba(34, 211, 238, 0.15);
+      --accent-glow: rgba(34, 211, 238, 0.25);
+      --accent-solid: #06b6d4;
+
+      /* Semantic */
+      --open: #34d399;
+      --open-bg: rgba(52, 211, 153, 0.12);
+      --open-border: rgba(52, 211, 153, 0.25);
+      --closed: #64748b;
+      --closed-bg: rgba(100, 116, 139, 0.08);
+      --closed-border: rgba(100, 116, 139, 0.15);
+
+      /* Text */
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --text-accent: #22d3ee;
+
+      /* Borders */
+      --border: rgba(255, 255, 255, 0.06);
+      --border-accent: rgba(34, 211, 238, 0.2);
+
+      /* Layout */
+      --radius: 16px;
+      --radius-sm: 10px;
+      --radius-xs: 6px;
+      --container-max: 1280px;
+
+      /* Shadows */
+      --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+      --shadow-glow: 0 0 30px rgba(34, 211, 238, 0.08);
+
+      /* Transitions */
+      --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       RESET & BASE
+       ═══════════════════════════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Ambient background gradient */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -40%;
+      left: -20%;
+      width: 140%;
+      height: 140%;
+      background:
+        radial-gradient(ellipse 60% 40% at 20% 20%, rgba(6, 182, 212, 0.06), transparent),
+        radial-gradient(ellipse 50% 50% at 80% 80%, rgba(34, 211, 238, 0.04), transparent),
+        radial-gradient(ellipse 80% 60% at 50% 50%, rgba(15, 23, 42, 0.8), transparent);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       LAYOUT
+       ═══════════════════════════════════════════════════════════ */
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════════════════════════ */
+    .header {
+      padding: 48px 0 32px;
+      text-align: center;
+    }
+
+    .header__icon {
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      display: block;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .header__title {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header__subtitle {
+      font-size: 0.93rem;
+      color: var(--text-secondary);
+      margin-top: 6px;
+      font-weight: 400;
+    }
+
+    .header__meta {
+      margin-top: 16px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .meta-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      background: var(--bg-glass);
+      padding: 5px 14px;
+      border-radius: 99px;
+      border: 1px solid var(--border);
+    }
+
+    .meta-badge .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--open);
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       TOOLBAR — Category filters + Favorites toggle
+       ═══════════════════════════════════════════════════════════ */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .filter-group {
+      display: flex;
+      background: var(--bg-glass);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+
+    .filter-btn {
+      background: none;
+      border: none;
+      color: var(--text-secondary);
+      padding: 9px 18px;
+      font: inherit;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.25s var(--ease);
+      position: relative;
+    }
+
+    .filter-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-glass-strong);
+    }
+
+    .filter-btn.active {
+      color: var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .filter-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+      width: 60%;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 1px;
+    }
+
+    .btn-favorites {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--bg-glass);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 9px 18px;
+      border-radius: var(--radius-sm);
+      font: inherit;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.25s var(--ease);
+    }
+
+    .btn-favorites:hover {
+      color: var(--text-primary);
+      background: var(--bg-glass-strong);
+      border-color: var(--border-accent);
+    }
+
+    .btn-favorites.active {
+      color: var(--accent);
+      background: var(--accent-dim);
+      border-color: var(--border-accent);
+    }
+
+    .btn-favorites .star {
+      font-size: 1rem;
+      transition: transform 0.3s var(--ease);
+    }
+
+    .btn-favorites.active .star {
+      transform: scale(1.2);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       FAVORITES SELECTOR PANEL
+       ═══════════════════════════════════════════════════════════ */
+    .favorites-panel {
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-card);
+      display: none;
+      animation: slideDown 0.3s var(--ease);
+    }
+
+    .favorites-panel.visible {
+      display: block;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .favorites-panel__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+    }
+
+    .favorites-panel__title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .favorites-panel__hint {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .favorites-panel__actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .favorites-panel__action-btn {
+      background: var(--bg-glass-strong);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 5px 12px;
+      border-radius: var(--radius-xs);
+      font: inherit;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s var(--ease);
+    }
+
+    .favorites-panel__action-btn:hover {
+      color: var(--text-primary);
+      border-color: var(--border-accent);
+    }
+
+    .pool-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pool-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--bg-glass);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 7px 14px;
+      border-radius: 99px;
+      font: inherit;
+      font-size: 0.78rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s var(--ease);
+      user-select: none;
+    }
+
+    .pool-chip:hover {
+      color: var(--text-primary);
+      background: var(--bg-glass-strong);
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .pool-chip.selected {
+      color: var(--accent);
+      background: var(--accent-dim);
+      border-color: var(--border-accent);
+    }
+
+    .pool-chip .chip-star {
+      font-size: 0.72rem;
+      opacity: 0.5;
+      transition: opacity 0.2s var(--ease);
+    }
+
+    .pool-chip.selected .chip-star {
+      opacity: 1;
+    }
+
+    .pool-chip .chip-type {
+      font-size: 0.65rem;
+      padding: 1px 6px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-left: 2px;
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       SCHEDULE TABLE
+       ═══════════════════════════════════════════════════════════ */
+    .schedule-section {
+      margin-bottom: 60px;
+    }
+
+    .schedule-wrapper {
+      overflow-x: auto;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: var(--shadow-card);
+      scrollbar-width: thin;
+      scrollbar-color: var(--accent-dim) transparent;
+    }
+
+    .schedule-wrapper::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .schedule-wrapper::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .schedule-wrapper::-webkit-scrollbar-thumb {
+      background: var(--accent-dim);
+      border-radius: 3px;
+    }
+
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+
+    .schedule-table thead th {
+      position: sticky;
+      top: 0;
+      background: var(--bg-secondary);
+      z-index: 2;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+      padding: 14px 16px;
+      text-align: center;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .schedule-table th {
+      font-weight: 600;
+      color: var(--text-secondary);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .schedule-table th.col-pool {
+      text-align: left;
+      min-width: 220px;
+      position: sticky;
+      left: 0;
+      z-index: 3;
+      background: var(--bg-secondary);
+    }
+
+    .schedule-table td.col-pool {
+      text-align: left;
+      position: sticky;
+      left: 0;
+      z-index: 1;
+      background: var(--bg-card);
+    }
+
+    .schedule-table tbody tr {
+      transition: background 0.2s var(--ease);
+    }
+
+    .schedule-table tbody tr:hover {
+      background: var(--bg-glass-strong);
+    }
+
+    .schedule-table tbody tr:hover td.col-pool {
+      background: var(--bg-card-hover);
+    }
+
+    .schedule-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Today column highlight */
+    .schedule-table .col-today {
+      background: var(--accent-dim) !important;
+      position: relative;
+    }
+
+    .schedule-table th.col-today {
+      color: var(--accent);
+    }
+
+    .schedule-table th.col-today::after {
+      content: '•';
+      display: block;
+      font-size: 0.6rem;
+      color: var(--accent);
+      margin-top: 2px;
+    }
+
+    /* Pool name in table */
+    .pool-name {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .pool-name__link {
+      color: var(--text-primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.88rem;
+      transition: color 0.2s var(--ease);
+    }
+
+    .pool-name__link:hover {
+      color: var(--accent);
+    }
+
+    .pool-name__type {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .pool-name__fav {
+      cursor: pointer;
+      margin-right: 6px;
+      font-size: 0.82rem;
+      transition: transform 0.2s var(--ease);
+      display: inline-block;
+    }
+
+    .pool-name__fav:hover {
+      transform: scale(1.25);
+    }
+
+    /* Time cells */
+    .time-cell {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 4px 10px;
+      border-radius: var(--radius-xs);
+      white-space: nowrap;
+    }
+
+    .time-cell--open {
+      color: var(--open);
+      background: var(--open-bg);
+      border: 1px solid var(--open-border);
+    }
+
+    .time-cell--closed {
+      color: var(--closed);
+      background: var(--closed-bg);
+      border: 1px solid var(--closed-border);
+      font-size: 0.78rem;
+    }
+
+    .time-cell--unknown {
+      color: #a1a1aa;
+      background: rgba(161, 161, 170, 0.08);
+      border: 1px dashed rgba(161, 161, 170, 0.3);
+      font-size: 0.78rem;
+      font-style: italic;
+    }
+
+    .time-cell--limited {
+      color: #fbbf24;
+      background: rgba(251, 191, 36, 0.1);
+      border: 1px solid rgba(251, 191, 36, 0.25);
+    }
+
+    .time-cell--dash {
+      color: var(--text-muted);
+    }
+
+    /* Multiple time slots stacked in one cell */
+    .time-slots {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: center;
+    }
+
+    .time-cell__label {
+      font-size: 0.62rem;
+      font-weight: 400;
+      opacity: 0.7;
+      display: block;
+      margin-top: 1px;
+      line-height: 1.2;
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       EMPTY STATE
+       ═══════════════════════════════════════════════════════════ */
+    .empty-state {
+      text-align: center;
+      padding: 64px 24px;
+      color: var(--text-muted);
+    }
+
+    .empty-state__icon {
+      font-size: 3rem;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+
+    .empty-state__title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .empty-state__text {
+      font-size: 0.88rem;
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════ */
+    .footer {
+      padding: 40px 0;
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer__text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .footer__link {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.2s var(--ease);
+    }
+
+    .footer__link:hover {
+      color: var(--accent);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       LOADING STATE
+       ═══════════════════════════════════════════════════════════ */
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 24px;
+      gap: 16px;
+    }
+
+    .loading__spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .loading__text {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       RESPONSIVE — Mobile cards
+       ═══════════════════════════════════════════════════════════ */
+    @media (max-width: 768px) {
+      html { font-size: 14px; }
+      .header { padding: 32px 0 24px; }
+      .container { padding: 0 16px; }
+
+      .schedule-wrapper {
+        background: none;
+        border: none;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        overflow: visible;
+      }
+
+      .schedule-table,
+      .schedule-table thead,
+      .schedule-table tbody,
+      .schedule-table tr,
+      .schedule-table th,
+      .schedule-table td {
+        display: block;
+      }
+
+      .schedule-table thead { display: none; }
+
+      .schedule-table tbody tr {
+        background: var(--bg-card);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        margin-bottom: 14px;
+        padding: 18px;
+        box-shadow: var(--shadow-card);
+      }
+
+      .schedule-table tbody tr:hover {
+        background: var(--bg-card-hover);
+      }
+
+      .schedule-table td {
+        position: static !important;
+        background: none !important;
+        border: none !important;
+        padding: 5px 0;
+        text-align: left !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .schedule-table td.col-pool {
+        padding-bottom: 12px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--border) !important;
+      }
+
+      .schedule-table td::before {
+        content: attr(data-date);
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        font-weight: 500;
+        min-width: 100px;
+      }
+
+      .schedule-table td.col-pool::before {
+        display: none;
+      }
+
+      .schedule-table td.col-today {
+        background: var(--accent-dim) !important;
+        border-radius: var(--radius-xs);
+        padding: 6px 10px !important;
+        margin: 2px 0;
+      }
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       ANIMATIONS
+       ═══════════════════════════════════════════════════════════ */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-in {
+      animation: fadeInUp 0.4s var(--ease) both;
+    }
+
+    .schedule-table tbody tr {
+      animation: fadeInUp 0.35s var(--ease) both;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- HEADER -->
+    <header class="header animate-in" id="header">
+      <span class="header__icon">🏊‍♂️</span>
+      <h1 class="header__title">Berliner Bäder</h1>
+      <p class="header__subtitle">Öffnungszeiten auf einen Blick</p>
+      <div class="header__meta" id="headerMeta">
+        <!-- filled by JS -->
+      </div>
+    </header>
+
+    <!-- TOOLBAR -->
+    <div class="toolbar animate-in" style="animation-delay: 0.1s" id="toolbar">
+      <div class="filter-group" id="categoryFilters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">Alle</button>
+        <button class="filter-btn" data-filter="Sommerbad" id="filter-sommer">Sommerbäder</button>
+        <button class="filter-btn" data-filter="Hallenbad" id="filter-hallen">Hallenbäder</button>
+      </div>
+      <button class="btn-favorites" id="btnFavorites" title="Nur Favoriten anzeigen">
+        <span class="star">⭐</span>
+        <span>Meine Bäder</span>
+      </button>
+      <button class="btn-favorites" id="btnEditFavorites" title="Favoriten bearbeiten" style="padding: 9px 14px;">
+        <span style="font-size: 0.9rem;">✏️</span>
+      </button>
+    </div>
+
+    <!-- FAVORITES PANEL -->
+    <div class="favorites-panel" id="favoritesPanel">
+      <div class="favorites-panel__header">
+        <div>
+          <div class="favorites-panel__title">Wähle deine Lieblingsbäder</div>
+          <div class="favorites-panel__hint">Klicke auf ein Bad um es als Favorit zu markieren</div>
+        </div>
+        <div class="favorites-panel__actions">
+          <button class="favorites-panel__action-btn" id="btnSelectAll">Alle auswählen</button>
+          <button class="favorites-panel__action-btn" id="btnDeselectAll">Keine</button>
+        </div>
+      </div>
+      <div class="pool-chips" id="poolChips">
+        <!-- filled by JS -->
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="schedule-section animate-in" style="animation-delay: 0.15s" id="scheduleSection">
+      <div class="loading" id="loading">
+        <div class="loading__spinner"></div>
+        <div class="loading__text">Lade Öffnungszeiten …</div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__text">
+        Daten von <a class="footer__link" href="https://www.berlinerbaeder.de/oeffnungszeiten-auf-einem-blick/" target="_blank" rel="noopener">berlinerbaeder.de</a>
+        &nbsp;·&nbsp; Keine Gewähr für Richtigkeit
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    /* ═══════════════════════════════════════════════════════════
+       APP STATE
+       ═══════════════════════════════════════════════════════════ */
+    const STORAGE_KEY = 'bbb-favorites';
+    const DEFAULT_FAVORITES = [
+      'Schwimm- und Sprunghalle im Europasportpark (SSE)',
+      'Sommerbad Kreuzberg',
+      'Schwimmhalle Fischerinsel',
+      'Sommerbad Neukölln',
+    ];
+
+    let poolData = null;        // full JSON data
+    let favorites = new Set();  // set of pool names
+    let categoryFilter = 'all'; // 'all' | 'Sommerbad' | 'Hallenbad'
+    let favoritesOnly = false;  // show only favorites?
+    let panelOpen = false;
+
+    /* ═══════════════════════════════════════════════════════════
+       PERSISTENCE
+       ═══════════════════════════════════════════════════════════ */
+    function loadFavorites() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const arr = JSON.parse(raw);
+          if (Array.isArray(arr) && arr.length > 0) {
+            return new Set(arr);
+          }
+        }
+      } catch { /* ignore */ }
+      return new Set(DEFAULT_FAVORITES);
+    }
+
+    function saveFavorites() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify([...favorites]));
+      } catch { /* ignore */ }
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       DATA LOADING
+       ═══════════════════════════════════════════════════════════ */
+    async function loadData() {
+      try {
+        const resp = await fetch('data/pools.json');
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        poolData = await resp.json();
+        favorites = loadFavorites();
+        render();
+      } catch (err) {
+        document.getElementById('loading').innerHTML = `
+          <div class="empty-state__icon">⚠️</div>
+          <div class="empty-state__title">Daten konnten nicht geladen werden</div>
+          <div class="empty-state__text">${err.message}</div>
+        `;
+      }
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       HELPERS
+       ═══════════════════════════════════════════════════════════ */
+
+    /** Get today's date column label for highlighting */
+    function getTodayLabel(dates) {
+      const now = new Date();
+      const dayMap = { 0: 'So', 1: 'Mo', 2: 'Di', 3: 'Mi', 4: 'Do', 5: 'Fr', 6: 'Sa' };
+      const dd = String(now.getDate()).padStart(2, '0');
+      const mm = String(now.getMonth() + 1).padStart(2, '0');
+      const yy = String(now.getFullYear()).slice(-2);
+      const prefix = dayMap[now.getDay()];
+      const todayStr = `${prefix}. ${dd}.${mm}.${yy}`;
+
+      // Also match if today just has a different format
+      for (const d of dates) {
+        if (d.includes(`${dd}.${mm}.${yy}`)) return d;
+      }
+      return todayStr;
+    }
+
+    function isOpen(times) {
+      if (!times) return false;
+      if (Array.isArray(times)) return times.length > 0;
+      const lower = String(times).toLowerCase();
+      return lower !== 'geschlossen' && lower !== 'unbekannt' && lower !== '–' && lower !== '-' && lower.trim() !== '';
+    }
+
+    function isLimited(label) {
+      if (!label) return false;
+      const lower = label.toLowerCase();
+      return lower.includes('eingeschränkt') || lower.includes('reduziert');
+    }
+
+    function renderTimeCell(times) {
+      // times can be:
+      //   - "geschlossen" (string)
+      //   - "unbekannt" (string)
+      //   - "–" (string)
+      //   - a single time string like "06:30 - 08:00" (legacy format)
+      //   - an array of {time, label} objects
+      if (times === 'geschlossen') {
+        return '<span class="time-cell time-cell--closed">geschlossen</span>';
+      }
+      if (times === 'unbekannt') {
+        return '<span class="time-cell time-cell--unknown">unbekannt</span>';
+      }
+      if (times === '–' || times === '-' || !times) {
+        return '<span class="time-cell time-cell--dash">–</span>';
+      }
+      if (typeof times === 'string') {
+        // Legacy single time string
+        return `<span class="time-cell time-cell--open">${times}</span>`;
+      }
+      if (Array.isArray(times)) {
+        if (times.length === 0) {
+          return '<span class="time-cell time-cell--unknown">unbekannt</span>';
+        }
+        const slots = times.map(slot => {
+          const limited = isLimited(slot.label);
+          const cssClass = limited ? 'time-cell--limited' : 'time-cell--open';
+          let labelHtml = '';
+          if (slot.label && slot.label !== 'öffentl. Schwimmen' && slot.label.trim()) {
+            // Shorten common labels
+            let shortLabel = slot.label;
+            if (shortLabel.includes('eingeschränkt')) shortLabel = 'e. Wf.';
+            labelHtml = `<span class="time-cell__label">${shortLabel}</span>`;
+          }
+          return `<span class="time-cell ${cssClass}">${slot.time}${labelHtml}</span>`;
+        });
+        if (slots.length === 1) return slots[0];
+        return `<div class="time-slots">${slots.join('')}</div>`;
+      }
+      return `<span class="time-cell time-cell--open">${times}</span>`;
+    }
+
+    function formatScrapedAt(isoStr) {
+      try {
+        const d = new Date(isoStr);
+        return d.toLocaleString('de-DE', {
+          day: '2-digit', month: '2-digit', year: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        });
+      } catch {
+        return isoStr;
+      }
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       RENDER
+       ═══════════════════════════════════════════════════════════ */
+    function render() {
+      if (!poolData) return;
+
+      const { dates, pools, scraped_at } = poolData;
+      const todayLabel = getTodayLabel(dates);
+
+      // Meta badges
+      const metaEl = document.getElementById('headerMeta');
+      metaEl.innerHTML = `
+        <span class="meta-badge"><span class="dot"></span>Zuletzt aktualisiert: ${formatScrapedAt(scraped_at)}</span>
+        <span class="meta-badge">${pools.length} Bäder</span>
+        <span class="meta-badge">${dates.length} Tage</span>
+      `;
+
+      // Render chips in favorites panel
+      renderChips(pools);
+
+      // Filter pools
+      let filtered = pools;
+      if (categoryFilter !== 'all') {
+        filtered = filtered.filter(p => p.type === categoryFilter);
+      }
+      if (favoritesOnly) {
+        filtered = filtered.filter(p => favorites.has(p.name));
+      }
+
+      const section = document.getElementById('scheduleSection');
+
+      if (filtered.length === 0) {
+        section.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state__icon">🔍</div>
+            <div class="empty-state__title">Keine Bäder gefunden</div>
+            <div class="empty-state__text">
+              ${favoritesOnly
+                ? 'Wähle Favoriten aus oder zeige alle Bäder an.'
+                : 'Versuche einen anderen Filter.'}
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      // Sort: favorites first, then alphabetical
+      filtered.sort((a, b) => {
+        const af = favorites.has(a.name) ? 0 : 1;
+        const bf = favorites.has(b.name) ? 0 : 1;
+        if (af !== bf) return af - bf;
+        return a.name.localeCompare(b.name, 'de');
+      });
+
+      // Build table
+      let html = '<div class="schedule-wrapper"><table class="schedule-table">';
+
+      // Header
+      html += '<thead><tr>';
+      html += '<th class="col-pool">Bad</th>';
+      for (const d of dates) {
+        const isToday = d === todayLabel;
+        html += `<th class="${isToday ? 'col-today' : ''}">${d}</th>`;
+      }
+      html += '</tr></thead>';
+
+      // Body
+      html += '<tbody>';
+      for (let i = 0; i < filtered.length; i++) {
+        const pool = filtered[i];
+        const isFav = favorites.has(pool.name);
+        const delay = Math.min(i * 0.04, 0.8);
+
+        html += `<tr style="animation-delay: ${delay}s">`;
+
+        // Pool name cell
+        html += `<td class="col-pool">
+          <div class="pool-name">
+            <div>
+              <span class="pool-name__fav" data-pool="${encodeURIComponent(pool.name)}" title="${isFav ? 'Aus Favoriten entfernen' : 'Als Favorit hinzufügen'}">${isFav ? '★' : '☆'}</span>
+              <a class="pool-name__link" href="${pool.detail_url}" target="_blank" rel="noopener">${pool.name}</a>
+            </div>
+            <span class="pool-name__type">${pool.type === 'Sommerbad' ? '☀️' : '🏠'} ${pool.type}</span>
+          </div>
+        </td>`;
+
+        // Schedule cells
+        for (let j = 0; j < dates.length; j++) {
+          const sched = pool.schedule[j];
+          const times = sched ? sched.times : '–';
+          const isToday = dates[j] === todayLabel;
+          const todayClass = isToday ? ' col-today' : '';
+
+          const cellContent = renderTimeCell(times);
+
+          html += `<td class="${todayClass}" data-date="${dates[j]}">${cellContent}</td>`;
+        }
+
+        html += '</tr>';
+      }
+      html += '</tbody></table></div>';
+
+      section.innerHTML = html;
+
+      // Attach star click handlers
+      section.querySelectorAll('.pool-name__fav').forEach(el => {
+        el.addEventListener('click', (e) => {
+          const name = decodeURIComponent(el.dataset.pool);
+          toggleFavorite(name);
+        });
+      });
+    }
+
+    function renderChips(pools) {
+      const container = document.getElementById('poolChips');
+      // Group by type
+      const sommerbaeder = pools.filter(p => p.type === 'Sommerbad').sort((a, b) => a.name.localeCompare(b.name, 'de'));
+      const hallenbaeder = pools.filter(p => p.type === 'Hallenbad').sort((a, b) => a.name.localeCompare(b.name, 'de'));
+
+      let html = '';
+      for (const pool of [...sommerbaeder, ...hallenbaeder]) {
+        const sel = favorites.has(pool.name) ? ' selected' : '';
+        const typeLabel = pool.type === 'Sommerbad' ? '☀️' : '🏠';
+        html += `<button class="pool-chip${sel}" data-pool="${encodeURIComponent(pool.name)}">
+          <span class="chip-star">${favorites.has(pool.name) ? '★' : '☆'}</span>
+          ${pool.name}
+          <span class="chip-type">${typeLabel}</span>
+        </button>`;
+      }
+      container.innerHTML = html;
+
+      // Attach click handlers
+      container.querySelectorAll('.pool-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          const name = decodeURIComponent(chip.dataset.pool);
+          toggleFavorite(name);
+        });
+      });
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       INTERACTIONS
+       ═══════════════════════════════════════════════════════════ */
+    function toggleFavorite(name) {
+      if (favorites.has(name)) {
+        favorites.delete(name);
+      } else {
+        favorites.add(name);
+      }
+      saveFavorites();
+      render();
+    }
+
+    function setCategoryFilter(filter) {
+      categoryFilter = filter;
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+      });
+      render();
+    }
+
+    function toggleFavoritesOnly() {
+      favoritesOnly = !favoritesOnly;
+      document.getElementById('btnFavorites').classList.toggle('active', favoritesOnly);
+      render();
+    }
+
+    function toggleFavoritesPanel() {
+      panelOpen = !panelOpen;
+      document.getElementById('favoritesPanel').classList.toggle('visible', panelOpen);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       EVENT LISTENERS
+       ═══════════════════════════════════════════════════════════ */
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => setCategoryFilter(btn.dataset.filter));
+    });
+
+    document.getElementById('btnFavorites').addEventListener('click', () => {
+      toggleFavoritesOnly();
+    });
+
+    document.getElementById('btnEditFavorites').addEventListener('click', () => {
+      toggleFavoritesPanel();
+    });
+
+    document.getElementById('btnSelectAll').addEventListener('click', () => {
+      if (!poolData) return;
+      poolData.pools.forEach(p => favorites.add(p.name));
+      saveFavorites();
+      render();
+    });
+
+    document.getElementById('btnDeselectAll').addEventListener('click', () => {
+      favorites.clear();
+      saveFavorites();
+      render();
+    });
+
+    /* ═══════════════════════════════════════════════════════════
+       INIT
+       ═══════════════════════════════════════════════════════════ */
+    loadData();
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+name: Scrape Berliner Bäder
+
+on:
+  schedule:
+    # Run daily at 02:00 UTC (04:00 CEST)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper/scrape_pools.py
+
+      - name: Validate JSON output
+        run: python -c "import json; d=json.load(open('data/pools.json')); print(f'✅ {len(d[\"pools\"])} pools scraped across {len(d[\"dates\"])} days')"
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pools.json
+          git diff --cached --quiet && echo "No changes" || (git commit -m "🔄 Update pool data $(date -u +%Y-%m-%d)" && git push)
