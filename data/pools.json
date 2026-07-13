@@ -1,14 +1,21 @@
 {
-  "scraped_at": "2026-07-01T22:12:04.811307+00:00",
+  "scraped_at": "2026-07-13T20:26:20.840234+00:00",
   "source_url": "https://www.berlinerbaeder.de/oeffnungszeiten-auf-einem-blick/",
   "dates": [
-    "Do. 02.07.26",
-    "Do. 02.07.26",
-    "Fr. 03.07.26",
-    "Sa. 04.07.26",
-    "So. 05.07.26",
-    "Mo. 06.07.26",
-    "Di. 07.07.26"
+    "Mo. 13.07.26",
+    "Di. 14.07.26",
+    "Mi. 15.07.26",
+    "Do. 16.07.26",
+    "Fr. 17.07.26",
+    "Sa. 18.07.26",
+    "So. 19.07.26",
+    "Mo. 20.07.26",
+    "Di. 21.07.26",
+    "Mi. 22.07.26",
+    "Do. 23.07.26",
+    "Fr. 24.07.26",
+    "Sa. 25.07.26",
+    "So. 26.07.26"
   ],
   "pools": [
     {
@@ -17,7 +24,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kinderbad-marzahn-platsch/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -26,7 +33,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -35,7 +42,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -44,7 +51,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -53,7 +60,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -62,7 +69,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -71,7 +78,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "10:00 - 18:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "10:00 - 18:30",
@@ -87,7 +157,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kinderbad-monbijou/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -96,7 +166,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -105,7 +175,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -114,7 +184,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -123,7 +193,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -132,7 +202,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -141,7 +211,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -157,7 +290,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-gropiusstadt-sommerbad/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -166,7 +299,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -175,7 +308,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -184,7 +317,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -193,7 +326,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -202,7 +335,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -211,7 +344,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -227,52 +423,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-seestrasse-sommerbad/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "08:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "08:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "08:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "08:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": [
-            {
-              "time": "08:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Mo. 06.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "10:00 - 20:00",
@@ -281,7 +432,115 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "Di. 14.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 15.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 16.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 17.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 18.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "10:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -297,7 +556,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-am-insulaner/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -306,7 +565,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -315,7 +574,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -324,7 +583,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -333,7 +592,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -342,7 +601,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -351,7 +610,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -367,52 +689,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-humboldthain/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Mo. 06.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "10:00 - 20:00",
@@ -421,7 +698,115 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "Di. 14.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 15.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 16.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 17.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 18.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "10:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:30",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -437,7 +822,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-kreuzberg/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -446,7 +831,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -455,7 +840,16 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
+          "times": [
+            {
+              "time": "14:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -464,7 +858,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -473,7 +867,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -482,7 +876,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "So. 19.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -491,7 +885,61 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -507,7 +955,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-mariendorf/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -516,7 +964,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -525,7 +973,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -534,7 +982,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -543,7 +991,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -552,7 +1000,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -561,7 +1009,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -577,7 +1088,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-neukoelln/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -586,7 +1097,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -595,7 +1106,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -604,7 +1115,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -613,7 +1124,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -622,7 +1133,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -631,7 +1142,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -647,7 +1221,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-olympiastadion/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -656,7 +1230,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -665,7 +1239,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -674,7 +1248,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -683,7 +1257,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -692,7 +1266,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -701,7 +1275,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -717,7 +1354,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-pankow/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -726,7 +1363,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -735,7 +1372,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -744,7 +1381,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -753,7 +1390,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -762,7 +1399,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -771,7 +1408,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -787,7 +1487,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-staaken-west/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -796,7 +1496,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -805,7 +1505,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -814,7 +1514,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -823,7 +1523,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -832,7 +1532,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -841,7 +1541,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -857,7 +1620,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-wilmersdorf/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -866,7 +1629,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -875,7 +1638,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -884,7 +1647,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -893,7 +1656,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -902,7 +1665,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -911,7 +1674,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -927,7 +1753,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-wuhlheide/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -936,7 +1762,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -945,7 +1771,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -954,7 +1780,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -963,7 +1789,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -972,7 +1798,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -981,7 +1807,70 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "So. 26.07.26",
           "times": [
             {
               "time": "08:00 - 20:00",
@@ -997,7 +1886,7 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -1006,7 +1895,7 @@
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -1015,7 +1904,7 @@
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -1024,7 +1913,7 @@
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -1033,7 +1922,7 @@
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -1042,7 +1931,7 @@
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Sa. 18.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -1051,293 +1940,76 @@
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "So. 19.07.26",
           "times": [
             {
               "time": "09:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Kleine Schwimmhalle Wuhlheide",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kleine-schwimmhalle-wuhlheide/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "09:00 - 15:30",
-              "label": ""
-            }
-          ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 20.07.26",
           "times": [
             {
-              "time": "14:00 - 21:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "09:00 - 16:30",
+              "time": "09:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
-        }
-      ]
-    },
-    {
-      "name": "Kombibad Spandau Süd - Hallenbad",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-spandau-sued-hallenbad/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
+          "date": "Di. 21.07.26",
           "times": [
             {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 18:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "06:30 - 20:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": [
-            {
-              "time": "06:30 - 20:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
-        }
-      ]
-    },
-    {
-      "name": "Schwimm- und Sprunghalle im Europasportpark (SSE)",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimm-und-sprunghalle-im-europasportpark-sse/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:30",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:30",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "11:00 - 22:30",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "10:00 - 18:00",
+              "time": "09:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "So. 05.07.26",
+          "date": "Mi. 22.07.26",
           "times": [
             {
-              "time": "10:00 - 18:00",
+              "time": "09:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Mo. 06.07.26",
+          "date": "Do. 23.07.26",
           "times": [
             {
-              "time": "06:30 - 22:30",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:30",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Anton-Saefkow-Platz",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-anton-saefkow-platz/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Buch",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-buch/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
+              "time": "09:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Fr. 24.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
+              "time": "09:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
+          "date": "Sa. 25.07.26",
+          "times": [
+            {
+              "time": "09:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
         },
         {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
+          "date": "So. 26.07.26",
+          "times": [
+            {
+              "time": "09:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
         }
       ]
     },
@@ -1347,146 +2019,109 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-ernst-thaelmann-park/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
-              "time": "10:00 - 22:00",
+              "time": "06:30 - 14:30",
               "label": ""
             }
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
-              "time": "06:30 - 22:00",
+              "time": "06:30 - 14:30",
               "label": ""
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
-              "time": "06:30 - 22:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
+              "time": "10:00 - 14:30",
               "label": ""
             }
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Finckensteinallee",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-finckensteinallee/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 14:00",
+              "time": "06:30 - 14:30",
               "label": ""
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
-              "time": "06:30 - 14:00",
+              "time": "06:30 - 14:30",
               "label": ""
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Sa. 18.07.26",
           "times": "geschlossen"
         },
         {
-          "date": "So. 05.07.26",
+          "date": "So. 19.07.26",
           "times": "geschlossen"
         },
         {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Fischerinsel",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-fischerinsel/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 20.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
+              "time": "06:30 - 14:30",
+              "label": ""
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Di. 21.07.26",
           "times": [
             {
-              "time": "06:30 - 16:00",
-              "label": "öffentl. Schwimmen"
+              "time": "06:30 - 14:30",
+              "label": ""
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
+          "date": "Mi. 22.07.26",
+          "times": [
+            {
+              "time": "10:00 - 14:30",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": [
+            {
+              "time": "06:30 - 14:30",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": [
+            {
+              "time": "06:30 - 14:30",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Sa. 25.07.26",
           "times": "geschlossen"
         },
         {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
+          "date": "So. 26.07.26",
           "times": "geschlossen"
         }
       ]
@@ -1497,480 +2132,110 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-kaulsdorf/",
       "schedule": [
         {
-          "date": "Do. 02.07.26",
+          "date": "Mo. 13.07.26",
           "times": [
             {
-              "time": "15:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 13:00",
-              "label": ""
-            },
-            {
-              "time": "15:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            },
-            {
-              "time": "17:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
+              "time": "06:30 - 14:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "Di. 14.07.26",
           "times": [
             {
-              "time": "06:30 - 22:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Sewanstraße",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-sewanstrasse/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            },
-            {
-              "time": "18:00 - 22:00",
+              "time": "06:30 - 14:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Mi. 15.07.26",
           "times": [
             {
-              "time": "18:00 - 22:00",
+              "time": "10:00 - 14:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
+          "date": "Do. 16.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
+              "time": "06:30 - 14:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Di. 07.07.26",
+          "date": "Fr. 17.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            },
-            {
-              "time": "15:00 - 22:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Thomas-Mann-Straße",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-thomas-mann-strasse/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
+              "time": "06:30 - 14:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Do. 02.07.26",
+          "date": "Sa. 18.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "So. 19.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Mo. 20.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
+              "time": "14:30 - 22:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Di. 21.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
+              "time": "14:30 - 22:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
+          "date": "Mi. 22.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Schwimmhalle Zingster Straße",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-zingster-strasse/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "16:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
+              "time": "14:30 - 22:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "Do. 23.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            },
-            {
-              "time": "16:00 - 22:00",
+              "time": "14:30 - 22:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
-        }
-      ]
-    },
-    {
-      "name": "Sport- und Lehrschwimmhalle Schöneberg",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sport-und-lehrschwimmhalle-schoeneberg/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
+          "date": "Fr. 24.07.26",
           "times": [
             {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "07:00 - 12:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
-        }
-      ]
-    },
-    {
-      "name": "Stadtbad Charlottenburg - Alte Halle",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-charlottenburg-alte-halle/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:00 - 15:00",
-              "label": ""
-            },
-            {
-              "time": "20:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "06:00 - 15:00",
-              "label": ""
-            },
-            {
-              "time": "20:00 - 22:00",
+              "time": "14:30 - 22:00",
               "label": "öffentl. Schwimmen"
             }
           ]
         },
         {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "06:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": [
-            {
-              "time": "06:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": [
-            {
-              "time": "10:00 - 15:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": [
-            {
-              "time": "06:00 - 14:30",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Stadtbad Märkisches Viertel",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-maerkisches-viertel/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 16:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
+          "date": "Sa. 25.07.26",
           "times": "geschlossen"
         },
         {
-          "date": "Fr. 03.07.26",
+          "date": "So. 26.07.26",
           "times": "geschlossen"
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": "geschlossen"
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": "geschlossen"
-        }
-      ]
-    },
-    {
-      "name": "Stadtbad Tiergarten",
-      "type": "Hallenbad",
-      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-tiergarten/",
-      "schedule": [
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "10:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Do. 02.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Fr. 03.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
-          "date": "Sa. 04.07.26",
-          "times": [
-            {
-              "time": "09:00 - 17:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "So. 05.07.26",
-          "times": [
-            {
-              "time": "09:00 - 17:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
-          "date": "Mo. 06.07.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
-          "date": "Di. 07.07.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
         }
       ]
     }
