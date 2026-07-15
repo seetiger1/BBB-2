@@ -1,5 +1,647 @@
-@@
--  </style>
-+  </style>
-+  <link rel="stylesheet" href="/static/css/light-theme.css">
- </head>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏊 Berliner Bäder – Öffnungszeiten</title>
+  <style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-card: #1a2332;
+      --bg-card-hover: #0f1419;
+      --bg-glass: rgba(255,255,255,0.05);
+      --bg-glass-strong: rgba(255,255,255,0.08);
+      --accent: #2563eb;
+      --accent-dim: rgba(37,99,175,0.15);
+      --accent-glow: rgba(37,99,175,0.2);
+      --accent-solid: #3b82f6;
+      --open: #10b981;
+      --open-bg: rgba(16,185,129,0.15);
+      --open-border: rgba(16,185,129,0.3);
+      --closed: #6b7280;
+      --closed-bg: rgba(107,114,128,0.1);
+      --closed-border: rgba(107,114,128,0.2);
+      --text-primary: #f1f5f9;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --text-accent: #60a5fa;
+      --border: rgba(255,255,255,0.1);
+      --border-accent: rgba(37,99,175,0.3);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --radius-xs: 6px;
+      --shadow-card: 0 6px 20px rgba(0,0,0,0.3);
+      --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(37,99,175,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      background: rgba(26,35,50,0.6);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 0;
+      margin-bottom: 30px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .header__title {
+      font-size: 1.8em;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .header__meta {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 0.95em;
+      color: var(--text-secondary);
+    }
+
+    .meta-badge {
+      background: var(--bg-glass);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .meta-badge strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .controls {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .filter-btn {
+      padding: 10px 18px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-primary);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.3s var(--ease);
+      font-weight: 500;
+      font-size: 0.95em;
+    }
+
+    .filter-btn:hover {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .favorites-panel {
+      background: var(--bg-glass);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 15px;
+      margin-bottom: 25px;
+      backdrop-filter: blur(10px);
+    }
+
+    .favorites-panel__title {
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 10px;
+      font-size: 0.95em;
+    }
+
+    .favorites-panel__actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      border-radius: var(--radius-xs);
+      cursor: pointer;
+      transition: all 0.2s var(--ease);
+      font-size: 0.9em;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .schedule-wrapper {
+      overflow-x: auto;
+      border-radius: var(--radius-sm);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-card);
+    }
+
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95em;
+    }
+
+    .schedule-table thead th {
+      background: var(--bg-secondary);
+      border-bottom: 2px solid var(--border);
+      padding: 15px 12px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--text-primary);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .schedule-table th.col-pool {
+      position: sticky;
+      left: 0;
+      z-index: 11;
+      background: var(--bg-secondary);
+      min-width: 200px;
+    }
+
+    .schedule-table td.col-pool {
+      position: sticky;
+      left: 0;
+      background: var(--bg-card);
+      z-index: 9;
+      min-width: 200px;
+      border-right: 1px solid var(--border);
+    }
+
+    .schedule-table td, .schedule-table th {
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .schedule-table tbody tr:hover {
+      background: var(--accent-dim);
+    }
+
+    .schedule-table tbody tr:hover td.col-pool {
+      background: var(--accent-dim);
+    }
+
+    .pool-name {
+      font-weight: 600;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pool-star {
+      cursor: pointer;
+      font-size: 1.2em;
+      transition: all 0.2s var(--ease);
+      user-select: none;
+    }
+
+    .pool-star:hover {
+      transform: scale(1.3);
+      filter: drop-shadow(0 0 4px var(--accent));
+    }
+
+    .time-cell {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .time-slot {
+      padding: 8px 10px;
+      border-radius: var(--radius-xs);
+      font-size: 0.85em;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .time-slot.open {
+      background: var(--open-bg);
+      color: var(--open);
+      border-left: 3px solid var(--open);
+    }
+
+    .time-slot.closed {
+      background: var(--closed-bg);
+      color: var(--closed);
+      border-left: 3px solid var(--closed);
+    }
+
+    .time-slot.unknown {
+      background: var(--bg-secondary);
+      color: var(--text-muted);
+      border-left: 3px solid var(--border);
+    }
+
+    .today-marker {
+      background: var(--accent-glow);
+      border-left: 3px solid var(--accent);
+    }
+
+    .today-marker th {
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .no-data {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .error {
+      background: rgba(220,38,38,0.15);
+      border: 1px solid rgba(220,38,38,0.3);
+      color: #fca5a5;
+      padding: 15px;
+      border-radius: var(--radius-sm);
+      margin-bottom: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 30px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9em;
+    }
+
+    .footer__link {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer__link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+
+      header {
+        margin-bottom: 20px;
+      }
+
+      .header__content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .header__meta {
+        font-size: 0.85em;
+      }
+
+      .schedule-table {
+        font-size: 0.8em;
+      }
+
+      .schedule-table th, .schedule-table td {
+        padding: 8px 6px;
+      }
+
+      .pool-name {
+        font-size: 0.9em;
+      }
+
+      .time-slot {
+        padding: 6px 8px;
+        font-size: 0.75em;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="/static/css/light-theme.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header__content">
+        <h1 class="header__title">🏊 Berliner Bäder</h1>
+        <div class="header__meta">
+          <div class="meta-badge">
+            <span>📅 Daten:</span>
+            <strong id="data-update-time">Wird geladen...</strong>
+          </div>
+          <div class="meta-badge">
+            <span>🏊 Bäder:</span>
+            <strong id="pool-count">0</strong>
+          </div>
+          <div class="meta-badge">
+            <span>📆 Tage:</span>
+            <strong id="day-count">0</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="error-container"></div>
+
+    <div class="controls">
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="all">📊 Alle</button>
+        <button class="filter-btn" data-filter="Sommerbad">☀️ Sommerbäder</button>
+        <button class="filter-btn" data-filter="Hallenbad">❄️ Hallenbäder</button>
+      </div>
+    </div>
+
+    <div class="favorites-panel">
+      <div class="favorites-panel__title">⭐ Favoriten</div>
+      <div class="favorites-panel__actions">
+        <button class="btn" id="select-all-favorites">Alle auswählen</button>
+        <button class="btn" id="deselect-all-favorites">Alle abwählen</button>
+        <button class="btn" id="toggle-favorites-view">Nur Favoriten anzeigen</button>
+      </div>
+    </div>
+
+    <div class="schedule-wrapper">
+      <table class="schedule-table" id="schedule-table">
+        <thead>
+          <tr id="header-row">
+            <th class="col-pool">Bad</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr>
+            <td colspan="100" class="no-data">Daten werden geladen...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <p>🔄 Daten werden täglich um 02:00 UTC aktualisiert</p>
+    <p>
+      <a href="https://www.berlinerbaeder.de/" class="footer__link">berlinerbaeder.de</a> •
+      <a href="https://github.com/seetiger1/BBB-2" class="footer__link">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    const STATE = {
+      data: null,
+      favorites: new Set(),
+      filter: 'all',
+      showFavoritesOnly: false,
+    };
+
+    // LocalStorage für Favoriten
+    const FAVORITES_KEY = 'bbb-favorites';
+    function saveFavorites() {
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify([...STATE.favorites]));
+    }
+    function loadFavorites() {
+      try {
+        const saved = localStorage.getItem(FAVORITES_KEY);
+        STATE.favorites = new Set(saved ? JSON.parse(saved) : []);
+      } catch (e) {
+        console.error('Failed to load favorites:', e);
+        STATE.favorites = new Set();
+      }
+    }
+
+    // Daten laden
+    async function loadData() {
+      try {
+        const response = await fetch('data/pools.json');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        STATE.data = await response.json();
+        
+        if (!STATE.data.pools || STATE.data.pools.length === 0) {
+          showError('Keine Bäder gefunden. Bitte später erneut versuchen.');
+          return;
+        }
+
+        document.getElementById('pool-count').textContent = STATE.data.pools.length;
+        document.getElementById('day-count').textContent = STATE.data.dates.length;
+        
+        if (STATE.data.scraped_at) {
+          const date = new Date(STATE.data.scraped_at);
+          document.getElementById('data-update-time').textContent = date.toLocaleDateString('de-DE') + ' ' + date.toLocaleTimeString('de-DE', {hour: '2-digit', minute: '2-digit'});
+        }
+
+        renderTable();
+      } catch (error) {
+        showError(`Fehler beim Laden der Daten: ${error.message}`);
+      }
+    }
+
+    function showError(msg) {
+      const container = document.getElementById('error-container');
+      container.innerHTML = `<div class="error">⚠️ ${msg}</div>`;
+    }
+
+    // Tabelle rendern
+    function renderTable() {
+      renderHeader();
+      renderBody();
+    }
+
+    function renderHeader() {
+      const headerRow = document.getElementById('header-row');
+      headerRow.innerHTML = '<th class="col-pool">Bad</th>';
+      
+      if (STATE.data.dates) {
+        STATE.data.dates.forEach(date => {
+          const th = document.createElement('th');
+          th.textContent = date;
+          headerRow.appendChild(th);
+        });
+      }
+    }
+
+    function renderBody() {
+      const tbody = document.getElementById('table-body');
+      tbody.innerHTML = '';
+
+      let visiblePools = STATE.data.pools;
+      if (STATE.filter !== 'all') {
+        visiblePools = visiblePools.filter(p => p.type === STATE.filter);
+      }
+      if (STATE.showFavoritesOnly) {
+        visiblePools = visiblePools.filter(p => STATE.favorites.has(p.name));
+      }
+
+      if (visiblePools.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="100" class="no-data">Keine Bäder gefunden</td></tr>';
+        return;
+      }
+
+      visiblePools.forEach((pool, idx) => {
+        const tr = document.createElement('tr');
+        const isFav = STATE.favorites.has(pool.name);
+        
+        // Check if today
+        const today = new Date().toLocaleDateString('de-DE');
+        const isToday = pool.schedule && pool.schedule[0] && 
+                        new Date(STATE.data.dates[0]).toLocaleDateString('de-DE') === today;
+        
+        if (isToday) tr.classList.add('today-marker');
+
+        const nameCell = document.createElement('td');
+        nameCell.className = 'col-pool';
+        nameCell.innerHTML = `
+          <div class="pool-name">
+            <span class="pool-star" data-pool="${pool.name}" title="Zu Favoriten hinzufügen">
+              ${isFav ? '⭐' : '☆'}
+            </span>
+            <span>${pool.name}</span>
+          </div>
+        `;
+        tr.appendChild(nameCell);
+
+        pool.schedule.forEach((day, dayIdx) => {
+          const cell = document.createElement('td');
+          cell.className = 'time-cell';
+
+          let times = day.times;
+          if (typeof times === 'string') {
+            const cssClass = times === 'geschlossen' ? 'closed' : times === 'unbekannt' ? 'unknown' : 'open';
+            const label = times === 'geschlossen' ? 'Geschlossen' : times === 'unbekannt' ? 'Unbekannt' : times;
+            cell.innerHTML = `<div class="time-slot ${cssClass}">${label}</div>`;
+          } else if (Array.isArray(times)) {
+            times.forEach(slot => {
+              const slotDiv = document.createElement('div');
+              slotDiv.className = 'time-slot open';
+              slotDiv.innerHTML = `<strong>${slot.time}</strong><span>${slot.label || ''}</span>`;
+              cell.appendChild(slotDiv);
+            });
+          }
+          tr.appendChild(cell);
+        });
+
+        tbody.appendChild(tr);
+      });
+
+      // Attach star click handlers
+      document.querySelectorAll('.pool-star').forEach(star => {
+        star.addEventListener('click', (e) => {
+          const poolName = e.target.dataset.pool;
+          if (STATE.favorites.has(poolName)) {
+            STATE.favorites.delete(poolName);
+          } else {
+            STATE.favorites.add(poolName);
+          }
+          saveFavorites();
+          renderBody();
+        });
+      });
+    }
+
+    // Event listeners
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        STATE.filter = e.target.dataset.filter;
+        renderBody();
+      });
+    });
+
+    document.getElementById('select-all-favorites').addEventListener('click', () => {
+      STATE.data.pools.forEach(p => STATE.favorites.add(p.name));
+      saveFavorites();
+      renderBody();
+    });
+
+    document.getElementById('deselect-all-favorites').addEventListener('click', () => {
+      STATE.favorites.clear();
+      saveFavorites();
+      renderBody();
+    });
+
+    document.getElementById('toggle-favorites-view').addEventListener('click', () => {
+      STATE.showFavoritesOnly = !STATE.showFavoritesOnly;
+      renderBody();
+    });
+
+    // Init
+    loadFavorites();
+    loadData();
+  </script>
+</body>
+</html>
