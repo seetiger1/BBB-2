@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-15T08:03:18.807531+00:00",
+  "scraped_at": "2026-07-15T13:02:13.262075+00:00",
   "source_url": "https://www.berlinerbaeder.de/oeffnungszeiten-auf-einem-blick/",
   "dates": [
     "Mi. 15.07.26",
@@ -2788,6 +2788,69 @@
               "label": "öffentl. Schwimmen"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Schwimmhalle Kreuzberg",
+      "type": "Hallenbad",
+      "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-kreuzberg/",
+      "schedule": [
+        {
+          "date": "Mi. 15.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Do. 16.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 17.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Sa. 18.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "So. 19.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Mo. 20.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 21.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Mi. 22.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Do. 23.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 24.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Sa. 25.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "So. 26.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Mo. 27.07.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 28.07.26",
+          "times": "geschlossen"
         }
       ]
     }

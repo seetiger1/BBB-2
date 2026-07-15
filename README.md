@@ -62,6 +62,9 @@ scraper/scrape_pools.py (scrapte berlinerbaeder.de)
 
 ### Option 1: Lokal entwickeln
 
+**👶 Neu beim Programmieren?** Lies unseren detaillierten **[Einsteiger-Guide für die lokale Entwicklung](LOKALE_ENTWICKLUNG.md)** für eine einfache Schritt-für-Schritt-Anleitung.
+
+*Kurzfassung für Erfahrene:*
 ```bash
 # 1. Repository klonen
 git clone https://github.com/seetiger1/BBB-2.git

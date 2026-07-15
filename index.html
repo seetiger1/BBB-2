@@ -12,7 +12,69 @@
     /* ═══════════════════════════════════════════════════════════
        DESIGN SYSTEM
        ═══════════════════════════════════════════════════════════ */
-    :root {
+    :root, [data-theme="light"] {
+      /* Core palette — light and fresh */
+      --bg-primary: #f8fafc;
+      --bg-secondary: #ffffff;
+      --bg-card: rgba(255, 255, 255, 0.85);
+      --bg-card-hover: rgba(248, 250, 252, 0.95);
+      --bg-glass: rgba(0, 0, 0, 0.03);
+      --bg-glass-strong: rgba(0, 0, 0, 0.06);
+
+      /* Accent — cyan / teal */
+      --accent: #0284c7;
+      --accent-dim: rgba(2, 132, 199, 0.1);
+      --accent-glow: rgba(2, 132, 199, 0.15);
+      --accent-solid: #0ea5e9;
+
+      /* Semantic */
+      --open: #10b981;
+      --open-bg: rgba(16, 185, 129, 0.12);
+      --open-border: rgba(16, 185, 129, 0.25);
+      --closed: #64748b;
+      --closed-bg: rgba(100, 116, 139, 0.08);
+      --closed-border: rgba(100, 116, 139, 0.15);
+      --unknown: #64748b;
+      --unknown-bg: rgba(100, 116, 139, 0.08);
+      --unknown-border: rgba(100, 116, 139, 0.3);
+      --limited: #d97706;
+      --limited-bg: rgba(217, 119, 6, 0.1);
+      --limited-border: rgba(217, 119, 6, 0.25);
+
+      /* Text */
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --text-accent: #0284c7;
+
+      /* Borders */
+      --border: rgba(0, 0, 0, 0.08);
+      --border-accent: rgba(2, 132, 199, 0.2);
+
+      /* Layout */
+      --radius: 16px;
+      --radius-sm: 10px;
+      --radius-xs: 6px;
+      --container-max: 1280px;
+
+      /* Shadows */
+      --shadow-card: 0 4px 15px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
+      --shadow-glow: 0 0 20px rgba(2, 132, 199, 0.1);
+
+      /* Transitions */
+      --ease: cubic-bezier(0.4, 0, 0.2, 1);
+      
+      /* Gradients */
+      --bg-grad-1: rgba(14, 165, 233, 0.08);
+      --bg-grad-2: rgba(2, 132, 199, 0.05);
+      --bg-grad-3: rgba(248, 250, 252, 0.9);
+      
+      /* Chip specifics */
+      --chip-hover-border: rgba(0, 0, 0, 0.12);
+      --chip-type-bg: rgba(0, 0, 0, 0.06);
+    }
+
+    [data-theme="dark"] {
       /* Core palette — deep ocean */
       --bg-primary: #0a0e1a;
       --bg-secondary: #0f1525;
@@ -34,6 +96,12 @@
       --closed: #64748b;
       --closed-bg: rgba(100, 116, 139, 0.08);
       --closed-border: rgba(100, 116, 139, 0.15);
+      --unknown: #a1a1aa;
+      --unknown-bg: rgba(161, 161, 170, 0.08);
+      --unknown-border: rgba(161, 161, 170, 0.3);
+      --limited: #fbbf24;
+      --limited-bg: rgba(251, 191, 36, 0.1);
+      --limited-border: rgba(251, 191, 36, 0.25);
 
       /* Text */
       --text-primary: #f1f5f9;
@@ -57,6 +125,15 @@
 
       /* Transitions */
       --ease: cubic-bezier(0.4, 0, 0.2, 1);
+      
+      /* Gradients */
+      --bg-grad-1: rgba(6, 182, 212, 0.06);
+      --bg-grad-2: rgba(34, 211, 238, 0.04);
+      --bg-grad-3: rgba(15, 23, 42, 0.8);
+      
+      /* Chip specifics */
+      --chip-hover-border: rgba(255, 255, 255, 0.12);
+      --chip-type-bg: rgba(255, 255, 255, 0.06);
     }
 
     /* ═══════════════════════════════════════════════════════════
@@ -87,9 +164,9 @@
       width: 140%;
       height: 140%;
       background:
-        radial-gradient(ellipse 60% 40% at 20% 20%, rgba(6, 182, 212, 0.06), transparent),
-        radial-gradient(ellipse 50% 50% at 80% 80%, rgba(34, 211, 238, 0.04), transparent),
-        radial-gradient(ellipse 80% 60% at 50% 50%, rgba(15, 23, 42, 0.8), transparent);
+        radial-gradient(ellipse 60% 40% at 20% 20%, var(--bg-grad-1), transparent),
+        radial-gradient(ellipse 50% 50% at 80% 80%, var(--bg-grad-2), transparent),
+        radial-gradient(ellipse 80% 60% at 50% 50%, var(--bg-grad-3), transparent);
       pointer-events: none;
       z-index: 0;
     }
@@ -357,7 +434,7 @@
     .pool-chip:hover {
       color: var(--text-primary);
       background: var(--bg-glass-strong);
-      border-color: rgba(255, 255, 255, 0.12);
+      border-color: var(--chip-hover-border);
     }
 
     .pool-chip.selected {
@@ -380,7 +457,7 @@
       font-size: 0.65rem;
       padding: 1px 6px;
       border-radius: 4px;
-      background: rgba(255, 255, 255, 0.06);
+      background: var(--chip-type-bg);
       color: var(--text-muted);
       font-weight: 400;
       margin-left: 2px;
@@ -562,17 +639,17 @@
     }
 
     .time-cell--unknown {
-      color: #a1a1aa;
-      background: rgba(161, 161, 170, 0.08);
-      border: 1px dashed rgba(161, 161, 170, 0.3);
+      color: var(--unknown);
+      background: var(--unknown-bg);
+      border: 1px dashed var(--unknown-border);
       font-size: 0.78rem;
       font-style: italic;
     }
 
     .time-cell--limited {
-      color: #fbbf24;
-      background: rgba(251, 191, 36, 0.1);
-      border: 1px solid rgba(251, 191, 36, 0.25);
+      color: var(--limited);
+      background: var(--limited-bg);
+      border: 1px solid var(--limited-border);
     }
 
     .time-cell--dash {

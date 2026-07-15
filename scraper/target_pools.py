@@ -29,5 +29,6 @@ TARGET_POOLS = [
     {"name": "Kombibad Seestraße - Sommerbad", "type": "Sommerbad", "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-seestrasse-sommerbad/"},
     {"name": "Sommerbad Pankow", "type": "Sommerbad", "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-pankow/"},
     {"name": "Sommerbad Mariendorf", "type": "Sommerbad", "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-mariendorf/"},
-    {"name": "Strandbad Wannsee", "type": "Sommerbad", "detail_url": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/"}
+    {"name": "Strandbad Wannsee", "type": "Sommerbad", "detail_url": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/"},
+    {"name": "Schwimmhalle Kreuzberg", "type": "Hallenbad", "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-kreuzberg/"}
 ]
