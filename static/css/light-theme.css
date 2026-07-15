@@ -1,0 +1,84 @@
+:root{
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --bg-glass: rgba(0,0,0,0.03);
+  --bg-glass-strong: rgba(0,0,0,0.06);
+  --accent: #1e40af;        /* blau für Überschriften */
+  --accent-dim: rgba(37,99,175,0.08);
+  --accent-glow: rgba(37,99,175,0.12);
+  --accent-solid: #2563eb;
+
+  --open: #10b981;
+  --open-bg: rgba(16,185,129,0.08);
+  --open-border: rgba(16,185,129,0.15);
+  --closed: #6b7280;
+  --closed-bg: rgba(107,114,128,0.06);
+  --closed-border: rgba(107,114,128,0.12);
+
+  --text-primary: #0f172a;   /* dunkler Haupttext */
+  --text-secondary: #475569; /* grauer Kontrasttext */
+  --text-muted: #6b7280;
+  --text-accent: #1e40af;
+
+  --border: rgba(15,23,42,0.06);
+  --border-accent: rgba(37,99,175,0.12);
+
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-xs: 6px;
+
+  --shadow-card: 0 6px 20px rgba(2,6,23,0.06);
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Remove dark ambient gradients from the original theme */
+body::before{ display: none !important; }
+
+/* Ensure body uses light background */
+body{
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Make surfaces light / grey for contrast */
+.container, .card, .panel, header, footer, nav, .favorites-panel, .schedule-wrapper {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+/* Headers in blue */
+h1,h2,h3,h4{
+  color: var(--accent) !important;
+}
+
+/* Meta badges / chips: subtle grey */
+.meta-badge, .pool-chip, .btn-favorites{
+  background: var(--bg-glass) !important;
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border) !important;
+}
+
+/* Links and accents */
+a, .pool-name__link, .footer__link{ color: var(--accent) !important; }
+
+/* Inputs & buttons: light */
+input,textarea,select{
+  background: #fff !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-primary) !important;
+}
+
+.button, button, .btn{ background: var(--accent) !important; color: #fff !important; }
+.button.secondary, .btn-secondary{ background: var(--bg-card) !important; color: var(--text-primary) !important; }
+
+/* Table header backgrounds */
+.schedule-table thead th{ background: var(--bg-secondary) !important; }
+.schedule-table th.col-pool, .schedule-table td.col-pool{ background: var(--bg-card) !important; }
+
+/* Small tweaks for dark icons (keep them visible) */
+.header__icon{ filter: none !important; }
+
+/* Code blocks */ncode, pre { background: #f8fafc !important; color: var(--text-primary) !important; }
