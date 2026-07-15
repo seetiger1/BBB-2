@@ -26,6 +26,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 try:
+    from target_pools import TARGET_POOLS
+except ImportError:
+    TARGET_POOLS = []
+
+
+try:
     import requests
     from bs4 import BeautifulSoup
 except ImportError:
@@ -400,16 +406,53 @@ def scrape_pools(skip_details: bool = False) -> dict:
             seen.add(key)
             unique_pools.append(pool)
 
-    # Infer type from name for any remaining "Sonstiges" pools
-    for pool in unique_pools:
-        if pool["type"] == "Sonstiges":
-            name_lower = pool["name"].lower()
-            if "sommerbad" in name_lower or "strandbad" in name_lower or "kinderbad" in name_lower:
-                pool["type"] = "Sommerbad"
-            elif "schwimmhalle" in name_lower or "hallenbad" in name_lower or "stadtbad" in name_lower or "sportbad" in name_lower:
-                pool["type"] = "Hallenbad"
+    # Match against TARGET_POOLS
+    if TARGET_POOLS:
+        final_pools = []
+        # Create a dict for fuzzy matching if needed, but exact match is preferred
+        scraped_pool_names = {p["name"].strip(): p for p in unique_pools}
+        
+        for tp in TARGET_POOLS:
+            tp_name = tp["name"]
+            # Fallbacks for slight name differences
+            match = scraped_pool_names.get(tp_name)
+            if not match:
+                for sp_name, sp in scraped_pool_names.items():
+                    if tp_name in sp_name or sp_name in tp_name:
+                        match = sp
+                        break
+                        
+            if match:
+                # We found it, keep the scraped schedule
+                match["type"] = tp["type"]  # ensure type is correct
+                match["detail_url"] = tp["detail_url"]
+                match["name"] = tp_name  # Normalize name
+                final_pools.append(match)
+            else:
+                # Not found on overview page (probably closed completely)
+                # Create a "geschlossen" schedule for all dates
+                closed_schedule = []
+                for d in all_dates:
+                    closed_schedule.append({"date": d, "times": "geschlossen"})
+                final_pools.append({
+                    "name": tp_name,
+                    "type": tp["type"],
+                    "detail_url": tp["detail_url"],
+                    "schedule": closed_schedule
+                })
 
-    print(f"✅ Scraped {len(unique_pools)} pools across {len(all_dates)} days from overview page")
+        unique_pools = final_pools
+        print(f"✅ Filtered and merged to {len(unique_pools)} target pools across {len(all_dates)} days")
+    else:
+        # Fallback if target_pools not found
+        for pool in unique_pools:
+            if pool["type"] == "Sonstiges":
+                name_lower = pool["name"].lower()
+                if "sommerbad" in name_lower or "strandbad" in name_lower or "kinderbad" in name_lower:
+                    pool["type"] = "Sommerbad"
+                elif "schwimmhalle" in name_lower or "hallenbad" in name_lower or "stadtbad" in name_lower or "sportbad" in name_lower:
+                    pool["type"] = "Hallenbad"
+        print(f"✅ Scraped {len(unique_pools)} pools across {len(all_dates)} days from overview page")
 
     # Enrich with detail page labels (limited area, schools, etc.)
     if not skip_details:
