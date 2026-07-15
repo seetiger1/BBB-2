@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-15T13:02:13.262075+00:00",
+  "scraped_at": "2026-07-15T20:26:53.396724+00:00",
   "source_url": "https://www.berlinerbaeder.de/oeffnungszeiten-auf-einem-blick/",
   "dates": [
     "Mi. 15.07.26",
@@ -1217,23 +1217,48 @@
         },
         {
           "date": "Fr. 17.07.26",
-          "times": "geschlossen"
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": ""
+            }
+          ]
         },
         {
           "date": "Sa. 18.07.26",
-          "times": "geschlossen"
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": ""
+            }
+          ]
         },
         {
           "date": "So. 19.07.26",
-          "times": "geschlossen"
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": ""
+            }
+          ]
         },
         {
           "date": "Mo. 20.07.26",
-          "times": "geschlossen"
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": ""
+            }
+          ]
         },
         {
           "date": "Di. 21.07.26",
-          "times": "geschlossen"
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": ""
+            }
+          ]
         },
         {
           "date": "Mi. 22.07.26",
