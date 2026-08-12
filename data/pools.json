@@ -1,8 +1,7 @@
 {
-  "scraped_at": "2026-08-11T03:25:10.291547+00:00",
+  "scraped_at": "2026-08-12T03:53:50.763525+00:00",
   "source_url": "https://www.berlinerbaeder.de/oeffnungszeiten-auf-einem-blick/",
   "dates": [
-    "Di. 11.08.26",
     "Mi. 12.08.26",
     "Do. 13.08.26",
     "Fr. 14.08.26",
@@ -15,7 +14,8 @@
     "Fr. 21.08.26",
     "Sa. 22.08.26",
     "So. 23.08.26",
-    "Mo. 24.08.26"
+    "Mo. 24.08.26",
+    "Di. 25.08.26"
   ],
   "pools": [
     {
@@ -23,10 +23,6 @@
       "type": "Hallenbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-fischerinsel/",
       "schedule": [
-        {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
         {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
@@ -77,6 +73,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -87,10 +87,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-tiergarten/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -140,6 +136,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -150,10 +150,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-mitte-james-simon/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -203,6 +199,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -213,10 +213,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimm-und-sprunghalle-im-europasportpark-sse/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -266,6 +262,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -276,10 +276,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-thomas-mann-strasse/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -330,6 +326,15 @@
         {
           "date": "Mo. 24.08.26",
           "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
+          "times": [
+            {
+              "time": "06:30 - 08:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
         }
       ]
     },
@@ -339,10 +344,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/wellenbad-am-spreewaldplatz/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -392,6 +393,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -402,10 +407,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-schoeneberg-hans-rosenthal/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -455,6 +456,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -465,10 +470,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-charlottenburg-alte-halle/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -518,6 +519,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -528,10 +533,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-charlottenburg-neue-halle/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -581,6 +582,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -591,10 +596,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-wilmersdorf-i/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -644,6 +645,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -654,10 +659,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-wilmersdorf-ii/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -707,6 +708,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -717,10 +722,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-neukoelln/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -770,6 +771,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -780,10 +785,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-holzmarktstrasse/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -833,6 +834,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -843,10 +848,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-anton-saefkow-platz/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -896,6 +897,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -906,15 +911,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-ernst-thaelmann-park/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "06:30 - 14:30",
-              "label": ""
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -1004,6 +1000,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -1014,10 +1014,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-tempelhof/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -1067,6 +1063,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -1077,10 +1077,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-lankwitz/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -1130,6 +1126,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -1140,10 +1140,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-seestrasse-halle/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -1193,6 +1189,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -1203,10 +1203,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-gropiusstadt-halle/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -1256,6 +1252,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -1266,10 +1266,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-baumschulenweg/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -1319,6 +1315,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
@@ -1329,15 +1329,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-kreuzberg/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -1447,6 +1438,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -1462,15 +1462,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-neukoelln/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -1580,6 +1571,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -1595,15 +1595,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-humboldthain/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -1714,6 +1705,10 @@
         {
           "date": "Mo. 24.08.26",
           "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
+          "times": "geschlossen"
         }
       ]
     },
@@ -1722,15 +1717,6 @@
       "type": "Sommerbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-olympiastadion/",
       "schedule": [
-        {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
         {
           "date": "Mi. 12.08.26",
           "times": [
@@ -1841,6 +1827,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "07:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "07:00 - 20:00",
@@ -1856,15 +1851,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kinderbad-monbijou/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "11:00 - 19:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -1974,6 +1960,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "11:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "11:00 - 19:00",
@@ -1989,15 +1984,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-am-insulaner/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -2108,6 +2094,10 @@
         {
           "date": "Mo. 24.08.26",
           "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
+          "times": "geschlossen"
         }
       ]
     },
@@ -2116,15 +2106,6 @@
       "type": "Sommerbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-wilmersdorf/",
       "schedule": [
-        {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 19:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
         {
           "date": "Mi. 12.08.26",
           "times": [
@@ -2235,6 +2216,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "07:00 - 19:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "07:00 - 19:00",
@@ -2250,15 +2240,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-seestrasse-sommerbad/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "08:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -2371,6 +2352,15 @@
           "times": [
             {
               "time": "10:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
+          "times": [
+            {
+              "time": "08:00 - 20:00",
               "label": "öffentl. Schwimmen"
             }
           ]
@@ -2383,15 +2373,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-pankow/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:30 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -2501,6 +2482,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "07:30 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "07:30 - 20:00",
@@ -2516,15 +2506,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-mariendorf/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "07:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": [
             {
@@ -2635,6 +2616,10 @@
         {
           "date": "Mo. 24.08.26",
           "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
+          "times": "geschlossen"
         }
       ]
     },
@@ -2643,15 +2628,6 @@
       "type": "Sommerbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/",
       "schedule": [
-        {
-          "date": "Di. 11.08.26",
-          "times": [
-            {
-              "time": "09:00 - 20:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
         {
           "date": "Mi. 12.08.26",
           "times": [
@@ -2762,6 +2738,15 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": [
+            {
+              "time": "09:00 - 20:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": [
             {
               "time": "09:00 - 20:00",
@@ -2777,10 +2762,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-kreuzberg/",
       "schedule": [
         {
-          "date": "Di. 11.08.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Mi. 12.08.26",
           "times": "geschlossen"
         },
@@ -2830,6 +2811,10 @@
         },
         {
           "date": "Mo. 24.08.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Di. 25.08.26",
           "times": "geschlossen"
         }
       ]
