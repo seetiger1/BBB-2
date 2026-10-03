@@ -1,8 +1,7 @@
 {
-  "scraped_at": "2026-10-02T07:38:51.776287+00:00",
+  "scraped_at": "2026-10-03T07:11:28.318728+00:00",
   "source_url": "https://www.berlinerbaeder.de/oeffnungszeiten-auf-einem-blick/",
   "dates": [
-    "Fr. 02.10.26",
     "Sa. 03.10.26",
     "So. 04.10.26",
     "Mo. 05.10.26",
@@ -15,7 +14,8 @@
     "Mo. 12.10.26",
     "Di. 13.10.26",
     "Mi. 14.10.26",
-    "Do. 15.10.26"
+    "Do. 15.10.26",
+    "Fr. 16.10.26"
   ],
   "pools": [
     {
@@ -23,15 +23,6 @@
       "type": "Hallenbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-fischerinsel/",
       "schedule": [
-        {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": ""
-            }
-          ]
-        },
         {
           "date": "Sa. 03.10.26",
           "times": [
@@ -132,6 +123,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "06:30 - 08:00",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "06:30 - 08:00",
@@ -147,15 +147,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-tiergarten/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -269,6 +260,15 @@
             {
               "time": "06:30 - 08:00",
               "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "06:30 - 22:00",
+              "label": ""
             }
           ]
         }
@@ -280,15 +280,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-mitte-james-simon/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "12:00 - 22:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -418,6 +409,15 @@
             {
               "time": "06:30 - 08:00",
               "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "12:00 - 22:00",
+              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
             }
           ]
         }
@@ -429,15 +429,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimm-und-sprunghalle-im-europasportpark-sse/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "11:00 - 22:30",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -550,6 +541,15 @@
           "times": [
             {
               "time": "06:30 - 22:30",
+              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "11:00 - 22:30",
               "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
             }
           ]
@@ -562,15 +562,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-thomas-mann-strasse/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -645,6 +636,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "06:30 - 08:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "06:30 - 08:00",
@@ -660,10 +660,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/wellenbad-am-spreewaldplatz/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -713,6 +709,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -723,15 +723,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-schoeneberg-hans-rosenthal/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "08:00 - 22:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -841,6 +832,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "08:00 - 22:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "08:00 - 22:00",
@@ -856,10 +856,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-charlottenburg-alte-halle/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -909,6 +905,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -919,10 +919,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-charlottenburg-neue-halle/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -972,6 +968,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -982,19 +982,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-wilmersdorf-i/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            },
-            {
-              "time": "14:30 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -1128,6 +1115,19 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "06:30 - 08:00",
+              "label": "öffentl. Schwimmen"
+            },
+            {
+              "time": "14:30 - 22:00",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "06:30 - 08:00",
@@ -1147,15 +1147,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-wilmersdorf-ii/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:00 - 08:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -1235,6 +1226,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "06:00 - 08:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "06:00 - 08:00",
@@ -1250,15 +1250,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-neukoelln/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "13:00 - 22:30",
-              "label": ""
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -1371,6 +1362,15 @@
           "times": [
             {
               "time": "14:00 - 22:30",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "13:00 - 22:30",
               "label": ""
             }
           ]
@@ -1383,10 +1383,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-holzmarktstrasse/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -1437,6 +1433,10 @@
         {
           "date": "Do. 15.10.26",
           "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": "geschlossen"
         }
       ]
     },
@@ -1445,19 +1445,6 @@
       "type": "Hallenbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-anton-saefkow-platz/",
       "schedule": [
-        {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": ""
-            },
-            {
-              "time": "14:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
         {
           "date": "Sa. 03.10.26",
           "times": [
@@ -1576,6 +1563,19 @@
               "label": ""
             }
           ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "06:30 - 08:00",
+              "label": ""
+            },
+            {
+              "time": "14:00 - 22:00",
+              "label": ""
+            }
+          ]
         }
       ]
     },
@@ -1584,15 +1584,6 @@
       "type": "Hallenbad",
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-ernst-thaelmann-park/",
       "schedule": [
-        {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 22:00",
-              "label": ""
-            }
-          ]
-        },
         {
           "date": "Sa. 03.10.26",
           "times": [
@@ -1698,6 +1689,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "06:30 - 22:00",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "06:30 - 22:00",
@@ -1713,19 +1713,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-tempelhof/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 08:30",
-              "label": "öffentl. Schwimmen"
-            },
-            {
-              "time": "13:00 - 16:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -1839,6 +1826,19 @@
             {
               "time": "14:30 - 16:00",
               "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "06:30 - 08:30",
+              "label": "öffentl. Schwimmen"
+            },
+            {
+              "time": "13:00 - 16:00",
+              "label": "öffentl. Schwimmen"
             }
           ]
         }
@@ -1850,15 +1850,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/stadtbad-lankwitz/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "08:00 - 22:00",
-              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -1968,6 +1959,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "08:00 - 22:00",
+              "label": "öffentl. Schwimmen mit eingeschränkter Wasserfläche"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "08:00 - 22:00",
@@ -1983,15 +1983,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-seestrasse-halle/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 15:30",
-              "label": ""
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -2101,6 +2092,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "06:30 - 15:30",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "06:30 - 15:30",
@@ -2116,19 +2116,10 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-gropiusstadt-halle/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "10:00 - 22:00",
-              "label": ""
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
-              "time": "06:30 - 16:00",
+              "time": "08:00 - 16:00",
               "label": ""
             }
           ]
@@ -2269,6 +2260,15 @@
           "times": [
             {
               "time": "06:30 - 08:15",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "10:00 - 22:00",
               "label": ""
             }
           ]
@@ -2281,15 +2281,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-baumschulenweg/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "06:30 - 08:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -2375,6 +2366,15 @@
         {
           "date": "Do. 15.10.26",
           "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
+          "times": [
+            {
+              "time": "06:30 - 08:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
         }
       ]
     },
@@ -2384,15 +2384,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-kreuzberg/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "08:00 - 16:00",
-              "label": "öffentl. Schwimmen"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2482,6 +2473,15 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": [
+            {
+              "time": "08:00 - 16:00",
+              "label": "öffentl. Schwimmen"
+            }
+          ]
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": [
             {
               "time": "08:00 - 16:00",
@@ -2497,10 +2497,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-neukoelln/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2550,6 +2546,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2560,10 +2560,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-humboldthain/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2613,6 +2609,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2623,10 +2623,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-olympiastadion/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2676,6 +2672,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2686,10 +2686,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kinderbad-monbijou/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2739,6 +2735,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2749,10 +2749,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-am-insulaner/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2802,6 +2798,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2812,10 +2812,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-wilmersdorf/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2865,6 +2861,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2875,10 +2875,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/kombibad-seestrasse-sommerbad/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2928,6 +2924,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -2938,10 +2938,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-pankow/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -2991,6 +2987,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -3001,10 +3001,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-mariendorf/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": "geschlossen"
         },
@@ -3054,6 +3050,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -3064,15 +3064,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": [
-            {
-              "time": "12:00 - 18:00",
-              "label": "ohne Badebetrieb"
-            }
-          ]
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -3132,6 +3123,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
@@ -3142,10 +3137,6 @@
       "detail_url": "https://www.berlinerbaeder.de/baeder/detail/schwimmhalle-kreuzberg/",
       "schedule": [
         {
-          "date": "Fr. 02.10.26",
-          "times": "geschlossen"
-        },
-        {
           "date": "Sa. 03.10.26",
           "times": [
             {
@@ -3215,6 +3206,10 @@
         },
         {
           "date": "Do. 15.10.26",
+          "times": "geschlossen"
+        },
+        {
+          "date": "Fr. 16.10.26",
           "times": "geschlossen"
         }
       ]
